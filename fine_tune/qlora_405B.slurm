@@ -1,5 +1,4 @@
 # make sure to have the lastest version of transformers bitsandbytes accelerate peft flash-attention
-# make sure to have the lastest version of transformers bitsandbytes accelerate peft flash-attention
 
 # training setup
 NUM_NODES=1
