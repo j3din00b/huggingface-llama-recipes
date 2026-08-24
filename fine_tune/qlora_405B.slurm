@@ -1,5 +1,5 @@
 # make sure to have the lastest version of transformers bitsandbytes accelerate peft flash-attention
-# use this fork for trl https://github.com/huggingface/trl/pull/1863
+# make sure to have the lastest version of transformers bitsandbytes accelerate peft flash-attention
 
 # training setup
 NUM_NODES=1
