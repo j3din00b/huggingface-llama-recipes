@@ -1,5 +1,4 @@
 # make sure to have the lastest version of transformers bitsandbytes accelerate peft flash-attention
-# use this fork for trl https://github.com/huggingface/trl/pull/1863
 
 # training setup
 NUM_NODES=1
@@ -14,7 +13,7 @@ MASTER_PORT=6000
 cd trl 
 
 export CMD=" \
-    ./examples/scripts/sft.py \
+    ./trl/scripts/sft.py \
     --model_name_or_path="meta-llama/Meta-Llama-3.1-405B" \
     --dataset_name="HuggingFaceH4/no_robots" \
     --report_to="wandb" \
