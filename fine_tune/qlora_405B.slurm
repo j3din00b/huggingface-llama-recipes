@@ -14,7 +14,7 @@ MASTER_PORT=6000
 cd trl 
 
 export CMD=" \
-    ./examples/scripts/sft.py \
+    ./trl/scripts/sft.py \
     --model_name_or_path="meta-llama/Meta-Llama-3.1-405B" \
     --dataset_name="HuggingFaceH4/no_robots" \
     --report_to="wandb" \
